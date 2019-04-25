@@ -1,0 +1,2 @@
+# nb-semaphore
+Angular semaphore
