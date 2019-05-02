@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Semaphore = /** @class */ (function () {
     function Semaphore(limit) {
         if (limit === void 0) { limit = 1; }

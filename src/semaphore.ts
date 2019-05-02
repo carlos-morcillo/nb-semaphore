@@ -37,7 +37,7 @@ export class Semaphore {
 		}
 	}
 
-	use(fn) {
+	use(fn: any) {
 		return this.aquire().then(fn).then(
 			(value) => { this.release(); return value; },
 			(error) => { this.release(); throw error; }

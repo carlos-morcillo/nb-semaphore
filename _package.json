@@ -1,0 +1,25 @@
+{
+  "name": "nb-semaphore",
+  "version": "1.0.1",
+  "description": "Semaphore for Angular",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inphinito/nb-semaphore.git"
+  },
+  "keywords": [
+    "angular",
+    "semaphore",
+    "netberry"
+  ],
+  "author": "Carlos Morcillo Fernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inphinito/nb-semaphore/issues"
+  },
+  "homepage": "https://github.com/inphinito/nb-semaphore#readme"
+}

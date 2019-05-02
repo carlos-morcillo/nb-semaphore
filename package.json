@@ -1,9 +1,9 @@
 {
 	"name": "nb-semaphore",
-	"version": "1.0.0",
-	"description": "Semaphore for Angular",
-	"main": "./dist/index.js",
-	"typings": "./dist/index.d.ts",
+	"version": "1.0.3",
+	"description": "Angular semaphore",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -16,10 +16,13 @@
 		"semaphore",
 		"netberry"
 	],
-	"author": "Carlos Morcillo Fernández",
+	"author": "",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/inphinito/nb-semaphore/issues"
 	},
-	"homepage": "https://github.com/inphinito/nb-semaphore#readme"
+	"homepage": "https://github.com/inphinito/nb-semaphore#readme",
+	"devDependencies": {
+		"typescript": "^3.4.5"
+	}
 }
